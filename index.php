@@ -17,7 +17,7 @@
   <body>
     <div class="wrapper">
       <header class="without-description">
-        <h1>Tengpao.GitHub.io</h1>
+        <h1><?php echo 'Hello World !'; ?></h1>
         <p></p>
         <p class="view"><a href="https://github.com/tengpao">View the Project on GitHub <small>tengpao</small></a></p>
         <ul>
