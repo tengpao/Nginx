@@ -12,4 +12,11 @@ location ~ \.php$ {
 }
 sudo nginx -t
 sudo service nginx reload
+
+sudo apt-get install mysql-server mysql-client
+sudo apt-get install php5-fpm
+
+sudo apt-get install php5-mysql
+
+sudo service php5-fpm restart
 ```
