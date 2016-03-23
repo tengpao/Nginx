@@ -1,5 +1,6 @@
 #简单php配置
 ```
+sudo /etc/init.d/nginx start || sudo service nginx start
 sudo vim /etc/nginx/sites-available/default
 location ~ \.php$ {
     root /usr/share/nginx/html;
